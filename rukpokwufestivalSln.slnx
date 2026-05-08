@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/.github/" />
+  <Folder Name="/.github/workflows/">
+    <File Path="dotnet-deploy.yml" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path="Dockerfile" />
+  </Folder>
+  <Project Path="rukpokwufestivalapi.test/rukpokwufestivalapi.test.csproj" />
+  <Project Path="rukpokwufestivalapi/rukpokwufestivalapi.csproj" />
+</Solution>
