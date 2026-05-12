@@ -34,11 +34,11 @@ namespace rukpokwufestivalapi.test.Shared
                 var db = scope.ServiceProvider.GetRequiredService<FestivalDbContext>();
                 db.Database.EnsureCreated();
 
-                if (!db.Contestants.Any())
-                {
-                    db.Contestants.Add(new Contestant { Name = "Test Queen", Bio = "Sample bio" });
-                    db.SaveChanges();
-                }
+                //if (!db.Contestants.Any())
+                //{
+                //    db.Contestants.Add(new Contestant { Name = "Test Queen", Bio = "Sample bio" });
+                //    db.SaveChanges();
+                //}
             });
         }
     }
